@@ -177,9 +177,9 @@ section .title::after{
 
 }
 .home{
-    display: flex;
+    display:flex;
     background: url("bcp.jpg") no-repeat, center;
-    height: 100vh;
+    height: 50pc;
     color: white;
     min-height: 500px;
     background-size: cover;
@@ -191,18 +191,18 @@ section .title::after{
 }
 
 .home .max-width{
-  width: 100%;
+  width: 50% auto;
   height: 80%;
-  display:flex;
+  display: flex;
   background-color: #111;
   opacity: 90%;
-  margin-top: 5%;
-  margin-bottom: 50px;
+  margin-top: auto  ;
+  margin-bottom: auto;
   
 }
 .home .max-width .row{
   margin-right: 50%;
-  text-align: center;
+  text-align: auto;
 }
 .home .home-content .text-1{
     font-size: 27px;

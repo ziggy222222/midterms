@@ -646,3 +646,35 @@ footer span a:hover{
         line-height: 30px;
     }
 }
+
+/* Add media query for large devices */
+@media (min-width: 1200px) {
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 50px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 24px;
+    }
+    .contact .right form .fields{
+        flex-direction: row;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0 10px;
+    }
+    .right form .error-box{
+       width: 200px;
+    }
+    .scroll-up-btn{
+        right: 40px;
+        bottom: 40px;
+        height: 50px;
+        width: 50px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
